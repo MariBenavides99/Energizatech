@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    background-image: url("eficiencia energetica/header.png");
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.yellow {
+    color: #FBD914;
+    font-weight: 700;
+}
+
+.intro{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    
+}
