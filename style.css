@@ -1,0 +1,25 @@
+
+  .Gestin-de-Residuos {
+    width: 1440px;
+    height: 4046px;
+    flex-grow: 0;
+    background-color: #fff;
+  }
+
+ .primeraimagen {
+  width: 735px;
+  height: 73.9px;
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.Gestin-de-Residuos .text-style-1 {
+  color: #fbd914;
+}
