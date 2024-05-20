@@ -12,7 +12,7 @@ body{
 main{
     background-image: url("eficiencia energetica/header.png");
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +22,7 @@ main{
 .title{
     font-size: 55px;
     font-weight: 700;
+    color: white;
 }
 .yellow {
     color: #FBD914;
@@ -82,20 +83,36 @@ ul{
 /* Cards*/
 
 .cards {
-    background-color: #8b8b8b;
+    background-color: #c4c4c4;
+    height: 650px;
+}
+
+.card{
+    padding: 20px;
 }
 
 .cards .card{
     width: 350px;
-    height: 450px;
-    box-shadow: ;
+    height: 430px;
+    box-shadow: 2px 4px 10px 0 #000;
+    border-radius: 10%;
 }
 
 .card-body{
    text-align: center;
 }
 
+.card p{
+    text-align: justify;
+}
+
 img.card-img-top{
-    width: 150px;
+    width: 130px;
     margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
