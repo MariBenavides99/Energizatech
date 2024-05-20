@@ -1,29 +1,13 @@
-.text-bg-dark{
-  background-color:#fff;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  width: 50px
+body{
+  width: 1440px;
+  font-family: "Monserrat", sans-serif;
 }
-.gestion-de{ 
-  position:absolute;
-    width:624px;
-    top:217px;
-    left:192px;
-    font-family:Montserrat-SemiBold,Helvetica;
-    font-weight:600;
-    color:#fff;
-    font-size:70px
-
-}
-.residuos{ 
-  position:absolute;
-  width:624px;
-  top:264px;
-  left:572px;
-  font-family:Montserrat-SemiBold,Helvetica;
-  font-weight:600;
-  color: #FFCB13;
-  font-size:70px
-
+main{
+  background-image: url(C:\Users\GenerationChileDiesi\Documents\GitHub\Energizatech\imagenes\contenedor-plastico-restos-basura.jpg);
+  width: 100vw;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
