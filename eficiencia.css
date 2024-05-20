@@ -36,3 +36,66 @@ main{
     font-weight: 400;
     
 }
+
+/* Main */
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.content_reverse img{
+    height: 600px;
+}
+
+.content_imagen img{
+    width: 650px;
+    height: 700px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.content_info{
+    margin-top: 30px;
+}
+.content_title{
+    font-size: 35px;
+}
+
+.content_subtitle{
+    margin: 20px 0;
+}
+li::marker{
+    color: #FBD914;
+    font-size: 30px;
+}
+
+ul{
+    line-height: 40px;
+}
+
+.content_reverse{
+    flex-direction: row-reverse;
+}
+
+/* Cards*/
+
+.cards {
+    background-color: #8b8b8b;
+}
+
+.cards .card{
+    width: 350px;
+    height: 450px;
+    box-shadow: ;
+}
+
+.card-body{
+   text-align: center;
+}
+
+img.card-img-top{
+    width: 150px;
+    margin: auto;
+}
