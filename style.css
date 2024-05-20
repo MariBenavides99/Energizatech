@@ -1,25 +1,29 @@
-
-  .Gestin-de-Residuos {
-    width: 1440px;
-    height: 4046px;
-    flex-grow: 0;
-    background-color: #fff;
-  }
-
- .primeraimagen {
-  width: 735px;
-  height: 73.9px;
-  flex-grow: 0;
-  font-family: Montserrat;
-  font-size: 70px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
+.text-bg-dark{
+  background-color:#fff;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 50px
 }
-.Gestin-de-Residuos .text-style-1 {
-  color: #fbd914;
+.gestion-de{ 
+  position:absolute;
+    width:624px;
+    top:217px;
+    left:192px;
+    font-family:Montserrat-SemiBold,Helvetica;
+    font-weight:600;
+    color:#fff;
+    font-size:70px
+
+}
+.residuos{ 
+  position:absolute;
+  width:624px;
+  top:264px;
+  left:572px;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  color: #FFCB13;
+  font-size:70px
+
 }
