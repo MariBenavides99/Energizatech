@@ -1,0 +1,258 @@
+.productos{
+  background-color:#fff;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%
+  }
+  
+  .productos .div{
+  background-color:#fff;
+  overflow:hidden;
+  border:1px solid transparent;
+  width:1440px;
+  height:1425px;
+  position:relative
+  }
+  
+  .productos .overlap{
+  position:absolute;
+  width:1446px;
+  height:506px;
+  top:-5px;
+  left:-2px
+  }
+  
+  .productos .image{
+  position:absolute;
+  width:1445px;
+  height:486px;
+  top:20px;
+  left:0;
+  object-fit:cover
+  }
+  
+  .productos .text-wrapper{
+  position:absolute;
+  width:624px;
+  top:217px;
+  left:192px;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  color:#fff;
+  font-size:70px
+  }
+  
+  .productos .text-wrapper-2{
+  position:absolute;
+  width:683px;
+  top:280px;
+  left:241px;
+  font-family:Montserrat-ExtraBold,Helvetica;
+  font-weight:800;
+  color:#fbd914;
+  font-size:70px;
+  letter-spacing:0;
+  line-height:normal
+  }
+  
+  .productos .group{
+  position:absolute;
+  width:1444px;
+  height:175px;
+  top:0;
+  left:2px;
+  box-shadow:0 4px 4px #00000040
+  }
+  
+  .productos .overlap-group{
+  position:absolute;
+  width:1442px;
+  height:62px;
+  top:113px;
+  left:0;
+  background-color:#0000004c
+  }
+  
+  .productos .group-2{
+  position:relative;
+  width:1170px;
+  height:23px;
+  top:20px;
+  left:144px
+  }
+  
+  .productos .text-wrapper-3{
+  position:absolute;
+  width:51px;
+  top:0;
+  left:0;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  color:#fff;
+  font-size:17px
+  }
+  
+  .productos .text-wrapper-4{
+  position:absolute;
+  width:188px;
+  top:1px;
+  left:139px;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  color:#fff;
+  font-size:17px;
+  letter-spacing:0;
+  line-height:normal;
+  white-space:nowrap
+  }
+  
+  .productos .text-wrapper-5,.productos .text-wrapper-6{
+  width:185px;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  font-size:17px;
+  position:absolute;
+  color:#fff;
+  line-height:normal;
+  letter-spacing:0;
+  white-space:nowrap
+  }
+  
+  .productos .text-wrapper-5{
+  top:1px;
+  left:416px
+  }
+  
+  .productos .text-wrapper-6{
+  top:2px;
+  left:685px
+  }
+  
+  .productos .text-wrapper-7{
+  position:absolute;
+  width:201px;
+  top:4px;
+  left:959px;
+  font-family:Montserrat-SemiBold,Helvetica;
+  font-weight:600;
+  color:#fff;
+  font-size:17px;
+  letter-spacing:0;
+  line-height:normal;
+  white-space:nowrap
+  }
+  
+  .productos .overlap-2{
+  position:absolute;
+  width:1442px;
+  height:113px;
+  top:0;
+  left:0;
+  background-color:#8c8a8a
+  }
+  
+  .productos .overlap-3{
+  position:absolute;
+  width:325px;
+  height:59px;
+  top:42px;
+  left:43px
+  }
+  
+  .productos .casablanca{
+  position:absolute;
+  width:59px;
+  height:40px;
+  top:0;
+  left:0;
+  object-fit:cover
+  }
+  
+  .productos .logonombre{
+  position:absolute;
+  width:274px;
+  height:52px;
+  top:7px;
+  left:51px;
+  object-fit:cover
+  }
+  
+  .productos .overlap-group-wrapper{
+  position:absolute;
+  width:137px;
+  height:33px;
+  top:42px;
+  left:1251px
+  }
+  
+  
+  .productos .text-wrapper-8{
+  position:absolute;
+  width:116px;
+  top:6px;
+  left:11px;
+  font-family:Montserrat-Medium,Helvetica;
+  font-weight:500;
+  color:#fff;
+  font-size:18px;
+  letter-spacing:0;
+  line-height:normal;
+  white-space:nowrap
+  }
+  
+  .productos .rectangle{
+  position:absolute;
+  width:137px;
+  height:33px;
+  top:0;
+  left:0;
+  border-radius:50px;
+  border:2px solid #fff
+  }
+  
+
+  .productos .overlap-4{
+  position:absolute;
+  width:324px;
+  height:60px;
+  top:18px;
+  left:827px
+  }
+  
+  .productos .rectangle-2{
+  position:absolute;
+  width:320px;
+  height:60px;
+  top:0;
+  left:4px;
+  border-bottom-width:1.5px;
+  border-bottom-style:solid;
+  border-color:#fff
+  }
+  
+  .productos .search{
+  position:absolute;
+  width:28px;
+  height:30px;
+  top:20px;
+  left:279px
+  }
+  
+  .productos .text-wrapper-9{
+  position:absolute;
+  width:302px;
+  top:32px;
+  left:0;
+  text-shadow:0 4px 4px #00000040;
+  -webkit-text-stroke:1px transparent;
+  font-family:Montserrat-Regular,Helvetica;
+  font-weight:400;
+  color:#ffffffcc;
+  font-size:16px;
+  text-align:center;
+  letter-spacing:0;
+  line-height:18.7px;
+  white-space:nowrap
+  }
+  
