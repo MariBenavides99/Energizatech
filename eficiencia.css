@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 body{
-    width: 1440px;
-    font-family: "Montserrat", sans-serif;
+    width: 1440px;   
 }
 
 /*Nav*/
 
 .overlap-2 {
-  position: absolute;
-  width: 1442px;
+  width: 1440px; 
   height: 113px;
   top: 0;
   left: 0;
@@ -129,96 +129,57 @@ body{
   white-space: nowrap;
 }
 
-.menu-navegacion {
+.menu-navegacion {  
   position: absolute;
-  width: 1442px;
+  width: 100%; 
   height: 62px;
   top: 113px;
   left: 0;
-  background-color: #0000004c;
-} 
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
 .menu-navegacion ul {
-  list-style-type: none; 
-  position: relative;
-  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
   text-align: center;
-  top: 20;
-  left: 144px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .menu-navegacion li {
-  display: inline-block;
-  margin-right: 20px;
+  font-family: Montserrat, Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .menu-navegacion .inicio {
-  position: absolute;
-  width: 51px;
-  top: 0;
-  left: 0;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 62px;
 }
 
 .menu-navegacion .energetica {
-  position: absolute;
-  width: 188px;
-  top: 0px;
-  left: 139px;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 62px;
 }
 
 .menu-navegacion .residuos {
-  position: absolute;
-  width: 185px;
-  top: 0px;
-  left: 416px;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 62px;
 }
 
 .menu-navegacion .renovables {
-  position: absolute;
-  width: 185px;
-  top: 0px;
-  left: 685px;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 62px;
 }
 
 .menu-navegacion .sostenibles {
-  position: absolute;
-  width: 201px;
-  top: 0px;
-  left: 959px;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 62px;
 }
 
 /*Fin Nav*/
@@ -230,7 +191,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     padding: 0 50px;
   
 }
