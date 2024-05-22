@@ -11,3 +11,22 @@ main{
   justify-content: center;
   align-items: center;
 }
+.Conoces-la-diferencia-entre-basura-y-residuos- {
+  width: 763px;
+  height: 37px;
+  flex-grow: 0;
+  margin: 0 132px 56px 185px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Conoces-la-diferencia-entre-basura-y-residuos- .text-style-1 {
+  color: #fbd914;
+}
