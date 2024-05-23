@@ -14,7 +14,7 @@ body{
 
 .overlap-2 {
   position: absolute;
-  width: 1442px;
+  width: 100vw;
   height: 113px;
   top: 0;
   left: 0;
@@ -132,7 +132,7 @@ body{
 
 .menu-navegacion {
   position: absolute;
-  width: 1442px;
+  width: 100vw;
   height: 62px;
   top: 113px;
   left: 0;
@@ -143,7 +143,7 @@ body{
   position: relative;
   width: 100%;
   text-align: center;
-  top: 20;
+  top: 20px;
   left: 144px;
 }
 
@@ -227,7 +227,6 @@ body{
 main{
     background-image: url("eficiencia energetica/header1.jpeg");
     width: 1440px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,6 +269,9 @@ main{
 
 /* Main */
 
+section{
+    width: 1440px;
+}
 .content{
     display: flex;
     justify-content: center;
@@ -289,6 +291,7 @@ main{
 
 .content_info{
     margin-top: 30px;
+    
 }
 .content_title{
     font-size: 35px;
@@ -301,7 +304,6 @@ main{
 li::marker{
     color: #FBD914;
     font-size: 30px;
-    
 }
 
 ul{
@@ -315,15 +317,16 @@ ul{
   width: 763px;
   height: 37px;
   flex-grow: 0;
-  margin: 0px 13px 5px 18px;
+  margin: 0 132px 56px 185px;
+  flex-grow: 0;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
+  line-height: 4;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #000;
 }
 .text-style-1  {
@@ -332,17 +335,16 @@ ul{
 .text-style-2 {
   color: #fbd914;
 }
-.productos .image {
+.productos .image{
   width: 1440px;
-  height: 406px;
-  object-fit: cover;
-  margin-top: -30px;
+  height: 443px;
+
 }
 .productos .text-wrapper {
   position: absolute;
   width: 624px;
-  top: 330px;
-  left: 392px;
+  top: 250px;
+  left: 300px;
   font-family: "Montserrat-SemiBold", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -355,8 +357,8 @@ ul{
 .productos .text-wrapper-2 {
   position: absolute;
   width: 683px;
-  top: 319px;
-  left: 780px;
+  top: 235px;
+  left: 675px;
   font-family: "Montserrat-ExtraBold", Helvetica;
   font-weight: 800;
   color: #fbd914;
@@ -365,16 +367,14 @@ ul{
   line-height: normal;
 }
 
-.Basura-La-basura-es-todo-aquel-fsico-considerado-como-desecho-y-que-se-necesita-eliminar-La-basur {
-  width: 512px;
+.align-self-center {
+  width: 700px;
   height: 137px;
   flex-grow: 0;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 50px 0px 0px;
   font-family: Montserrat;
   font-size: 17px;
-  font-weight: 300;
-  text-align: center;
-  display: inline-block;
+  text-align: left;
   color: #000;
 }
 
@@ -386,7 +386,7 @@ ul{
   width: 517px;
   height: 291px;
   flex-grow: 0;
-  margin: 0px 68px 0px 0px;
+  margin: 0px 0px 0px 0px;
   text-align: center;
   display: inline-block;
 }
@@ -413,7 +413,7 @@ ul{
   width: 517px;
   height: 291px;
   flex-grow: 0;
-  margin: 1px 68px 0px 0px;
+  margin: 1px 50px 0px 0px;
   text-align: center;
 }
 
@@ -427,7 +427,7 @@ ul{
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
+  line-height: 4;
   letter-spacing: normal;
   text-align: left;
   color: #fbd914;
@@ -436,6 +436,28 @@ ul{
   font-weight: normal;
   color: #000;
 }
+
+.Segn-su-origen {
+  width: 429px;
+  height: 37px;
+  flex-grow: 0;
+  margin: 0 408px 56px 0;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Segn-su-origen .text-style-1 {
+  font-weight: 900;
+  color: #fbd914;
+}
+
+
 
 .Segn-su-origen {
   width: 429px;
@@ -456,21 +478,47 @@ ul{
   font-weight: 900;
   color: #fbd914;
 }
-HT
 
+/*imagenes*/
+.gris-claro{
+  width: 410px;
+  height:416px ;
+  }
+.verde{
+    width: 410px;
+    height:416px ;
+    }
+    .beige{
+      width: 410px;
+      height:416px ;
+      }
+      .azul{
+        width: 410px;
+        height:416px ;
+        }
+        .rojo{
+          width: 410px;
+          height:416px ;
+          }
+          .burdeos{
+            width: 410px;
+            height:416px ;
+            }
+            .gris-oscuro{
+              width: 410px;
+              height:416px ;
+              }
+              .amarillo{
+                width: 410px;
+                height:416px ;
+                }
+                .cafe{
+                  width: 410px;
+                  height:416px ;
+                  }
+            
 /*iconos*/
-.iconos {
-  color: #000000;
-  text-decoration: underline;
-  padding-bottom: 20px;
-}
 
-.icono{
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 15px;
-}
 .fa-car-battery{
   font-size: 30px;
   color: black;
@@ -503,28 +551,6 @@ HT
   font-size: 30px;
   color: black;
 }
-
-.Segn-su-origen {
-  width: 429px;
-  height: 37px;
-  flex-grow: 0;
-  margin: 0 408px 56px 0;
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-}
-.Segn-su-origen .text-style-1 {
-  font-weight: 900;
-  color: #fbd914;
-}
-
-
 
 
 
