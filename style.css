@@ -315,7 +315,7 @@ ul{
   width: 763px;
   height: 37px;
   flex-grow: 0;
-  margin: 0 132px 56px 185px;
+  margin: 0px 13px 5px 18px;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: bold;
@@ -332,13 +332,65 @@ ul{
 .text-style-2 {
   color: #fbd914;
 }
-.image-74 {
+.productos .image {
   width: 1440px;
-  height: 430px;
-  flex-grow: 10px;
- 
- 
+  height: 406px;
+  object-fit: cover;
+  margin-top: -30px;
 }
+.productos .text-wrapper {
+  position: absolute;
+  width: 624px;
+  top: 330px;
+  left: 392px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.productos .text-wrapper-2 {
+  position: absolute;
+  width: 683px;
+  top: 319px;
+  left: 780px;
+  font-family: "Montserrat-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #fbd914;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.Basura-La-basura-es-todo-aquel-fsico-considerado-como-desecho-y-que-se-necesita-eliminar-La-basur {
+  width: 512px;
+  height: 137px;
+  flex-grow: 0;
+  margin: 126px 68px 102px 5px;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Basura-La-basura-es-todo-aquel-fsico-considerado-como-desecho-y-que-se-necesita-eliminar-La-basur .text-style-3 {
+  font-weight: bold;
+}
+
+.image-110 {
+  width: 479px;
+  height: 309px;
+  flex-grow: 0;
+  margin: 56px 16px 0 68px;
+}
+
 
 
 /* Cards*/
