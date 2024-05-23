@@ -394,3 +394,9 @@ button.btn:hover{
   color: #fff;
   font-size: 30px;
 }
+
+#warning{
+  color: rgb(255, 200, 0);
+  text-align: center;
+  margin-top: 10px;
+}
