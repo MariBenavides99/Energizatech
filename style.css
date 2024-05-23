@@ -436,6 +436,28 @@ ul{
   font-weight: normal;
   color: #000;
 }
+
+.Segn-su-origen {
+  width: 429px;
+  height: 37px;
+  flex-grow: 0;
+  margin: 0 408px 56px 0;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Segn-su-origen .text-style-1 {
+  font-weight: 900;
+  color: #fbd914;
+}
+HT
+
 /*iconos*/
 .iconos {
   color: #000000;
