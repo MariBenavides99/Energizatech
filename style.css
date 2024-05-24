@@ -518,6 +518,15 @@ ul{
                   }
             
 /*iconos*/
+.icono_main
+.fa-regular{
+  font-size: 30px;
+  color:#000;
+}
+.fa-light{
+  font-size: 30px;
+  color: #000;
+}
 
 .fa-car-battery{
   font-size: 30px;
