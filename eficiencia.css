@@ -350,7 +350,7 @@ footer{
 }
 
 button.btn {
-  width: 493px;
+  width: 558px;
   background-color: #FBD914;
   margin-top: 10px;
 }
@@ -395,8 +395,14 @@ button.btn:hover{
   font-size: 30px;
 }
 
-#warning{
-  color: rgb(255, 200, 0);
+#warnings{
   text-align: center;
   margin-top: 10px;
+}
+
+#exampleFormControlTextarea1:focus {
+  box-shadow: 0 0 5px #FBD914;
+}
+#exampleFormControlInput1:focus {
+  box-shadow: 0 0 5px #FBD914;
 }

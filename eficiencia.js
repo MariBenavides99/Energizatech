@@ -4,6 +4,7 @@ const form = document.getElementById("form")
 const parrafo = document.getElementById("warnings")
 warnings.style.color = "orange";
 
+
 form.addEventListener ("submit", e=>{
     e.preventDefault()
     let warnings = ""
@@ -11,11 +12,11 @@ form.addEventListener ("submit", e=>{
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     parrafo.innerHTML = ""
     if(texto.value.length > 6){
-        warnings += `El nombre no es valido <br>`
+        warnings += `El texto es muy corto <br>`
     }
 
     if(!regexEmail.test(email.value)){
-        warnings += `El email no es valido <br>`
+        warnings += `El email no es válido <br>`
         entrar = true
     }
     if(entrar){
