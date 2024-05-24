@@ -5,7 +5,9 @@ const parrafo = document.getElementById("warnings")
 warnings.style.color = "orange";
 
 
+
 form.addEventListener ("submit", e=>{
+    
     e.preventDefault()
     let warnings = ""
     let entrar = false
@@ -25,4 +27,11 @@ form.addEventListener ("submit", e=>{
     else{
         parrafo.innerHTML = "Enviado"
     }
+    document.getElementById("form").reset();
 })
+
+
+
+  
+
+ 

@@ -74,7 +74,7 @@ body{
   text-align: center;
 }
 
-.rectangle {
+ .rectangle {
   position: absolute;
   width: 137px;
   height: 33px;
@@ -83,14 +83,34 @@ body{
   border-radius: 50px;
   border: 2px solid;
   border-color: #ffffff;
-}
+} 
 
 .overlap-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   position: absolute;
   width: 324px;
   height: 60px;
-  top: 18px;
-  left: 827px;
+  top: 28px;
+  left: 827px; 
+}
+
+.buscador{
+  width: 350px;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding: 0 15px;
+  color: #fff;
+}
+.overlap-4 ::placeholder {
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 15px;
+  
 }
 
 .rectangle-2 {
@@ -104,13 +124,13 @@ body{
   border-color: #ffffff;
 }
 
-.search {
+/* .search {
   position: absolute;
   width: 28px;
   height: 30px;
   top: 20px;
   left: 279px;
-}
+} */
 
 .text-wrapper-9 {
   position: absolute;
@@ -327,15 +347,15 @@ footer{
   align-items: center;
 }
 .logo img{
-  width: 280px;
+  width: 250px;
 }
 .subtitulo_formulario h1{
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   margin-bottom: 20px;
 }
 .subtitulo_formulario p{
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   font-weight: 300;
 }
@@ -361,6 +381,7 @@ button.btn:hover{
   color: #fff;
   text-decoration: underline;
   padding-bottom: 20px;
+  font-size: 25px;
 }
 
 .redes_contacto{
@@ -405,4 +426,9 @@ button.btn:hover{
 }
 #exampleFormControlInput1:focus {
   box-shadow: 0 0 5px #FBD914;
+}
+
+.menu-navegacion li:hover {
+  color: yellow;
+  font-weight: 700;
 }
