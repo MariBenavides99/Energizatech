@@ -123,6 +123,10 @@ body{
   border-bottom-style: solid;
   border-color: #ffffff;
 }
+.menu-navegacion li:hover {
+  color: yellow;
+  font-weight: 700;
+}
 
 /* .search {
   position: absolute;
@@ -428,7 +432,3 @@ button.btn:hover{
   box-shadow: 0 0 5px #FBD914;
 }
 
-.menu-navegacion li:hover {
-  color: yellow;
-  font-weight: 700;
-}
